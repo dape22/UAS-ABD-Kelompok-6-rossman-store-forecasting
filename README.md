@@ -12,12 +12,12 @@ Proses dilakukan mulai dari pra-pemrosesan data, eksplorasi, pembuatan fitur, pe
   - **Insight with kibana/**
     - Berisi dashboard dan visualisasi hasil analisis data serta prediksi menggunakan Kibana
   - **. gitattributes**
-    Merupakan file bawaan github untuk menyimpan dataset skala besar yang teridiri dari:
+    Merupakan file bawaan github untuk menyimpan dataset skala besar yang terdiri dari:
       - **📦 data_ori.zip**
-        Merupakan folder referensi yang berisi dataset asli / dataset pendukung
+        Merupakan folder arsip yang berisi dataset asli yang bersumber dari "https://www.kaggle.com/competitions/rossmann-store-sales/overview"
     
       - **📦 data_final.zip**
-         merupakan berkas arsip yang berisi kumpulan dataset akhir proyek. File ini digunakan untuk mengatasi batasan ukuran file pada GitHub sehingga seluruh dataset dapat tetap dibagikan dalam satu pake yang terdiri dari:
+         merupakan berkas arsip yang berisi kumpulan dataset bersih setelah tahap pra-pemrosesan proyek yang terdiri dari:
           - **data_prediksi_rf.csv**  
             Berisi hasil prediksi akhir penjualan yang dihasilkan oleh model Random Forest.
     
