@@ -27,8 +27,6 @@ Proses dilakukan mulai dari pra-pemrosesan data, eksplorasi, pembuatan fitur, pe
           - **data_train_final.csv**  
             Dataset latih final yang digunakan dalam proses pelatihan model.
 
-  - **forecast_rossman_rf.pkl**
-    - File model Random Forest yang sudah dilatih dan dapat digunakan kembali tanpa training ulang
   - **Pelatihan Model dan Prediksi.ipynb**
     - Notebook untuk proses pelatihan model, validasi, prediksi, dan visualisasi hasil
   - **Pra-pemrosesan Data.ipynb**
