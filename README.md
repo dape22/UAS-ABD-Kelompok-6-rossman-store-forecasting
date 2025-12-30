@@ -138,6 +138,25 @@ Menampilkan hasil prediksi dalam bentuk grafik sehingga performa model dan pola 
 ### 🔹 Dashboard
 ![Dashboard Kibana](Insight%20with%20kibana/Dashboard%20Kibana.png)
 
+---
+## 📥 Cara Clone Repository Lengkap (Termasuk Dataset LFS)
+
+Repository ini menggunakan **Git LFS**, jadi pastikan langkah berikut diikuti:
+
+```bash
+# 1️⃣ Install Git LFS (sekali saja di komputer)
+git lfs install
+
+# 2️⃣ Clone repository
+git clone https://github.com/dape22/UAS-ABD-Kelompok-6-rossman-store-forecasting.git
+
+# 3️⃣ Masuk ke folder repo
+cd UAS-ABD-Kelompok-6-rossman-store-forecasting
+
+# 4️⃣ Pastikan file LFS ter-download
+git lfs pull
+
+
 
 
 
