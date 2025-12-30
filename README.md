@@ -12,20 +12,20 @@ Proses dilakukan mulai dari pra-pemrosesan data, eksplorasi, pembuatan fitur, pe
   - **Insight with kibana/**
     - Berisi dashboard dan visualisasi hasil analisis data serta prediksi menggunakan Kibana
   - **. gitattributes**
-    Merupakan file bawaan github untuk menyimpan dataset skala besar jika ingin mengakses dataset perlu install lfs terlebih dahulu.
+    Merupakan file bawaan github untuk menyimpan dataset skala besar yang teridiri dari:
       - **📦 data_ori.zip**
         Merupakan folder referensi yang berisi dataset asli / dataset pendukung
     
       - **📦 data_final.zip**
          merupakan berkas arsip yang berisi kumpulan dataset akhir proyek. File ini digunakan untuk mengatasi batasan ukuran file pada GitHub sehingga seluruh dataset dapat tetap dibagikan dalam satu pake yang terdiri dari:
-      - **data_prediksi_rf.csv**  
-        Berisi hasil prediksi akhir penjualan yang dihasilkan oleh model Random Forest.
-
-      - **data_test_final.csv**  
-        Dataset uji yang telah melalui proses preprocessing dan feature engineering.
-
-      - **data_train_final.csv**  
-        Dataset latih final yang digunakan dalam proses pelatihan model.
+          - **data_prediksi_rf.csv**  
+            Berisi hasil prediksi akhir penjualan yang dihasilkan oleh model Random Forest.
+    
+          - **data_test_final.csv**  
+            Dataset uji yang telah melalui proses preprocessing dan feature engineering.
+    
+          - **data_train_final.csv**  
+            Dataset latih final yang digunakan dalam proses pelatihan model.
 
   - **forecast_rossman_rf.pkl**
     - File model Random Forest yang sudah dilatih dan dapat digunakan kembali tanpa training ulang
