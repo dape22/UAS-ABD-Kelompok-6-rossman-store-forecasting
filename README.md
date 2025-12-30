@@ -1,10 +1,14 @@
 # Rossman Store Sales Forecasting
 
+## 👥 Anggota Kelompok 6
+- Dhani Aditya Putra Efendi (22031554038)
+- Azaria Syahla Fitan Adibah (22031554019)
+- Alivia Nayla Wibisono (22031554041)
+- Nabila Aulia Arfiani (22031554051)
+
 ## 📝 Deskripsi Proyek
 Proyek ini bertujuan untuk memprediksi penjualan harian toko Rossmann dengan memanfaatkan data historis penjualan, informasi promosi, data kompetitor, serta variabel pendukung lainnya.  
 Proses dilakukan mulai dari pra-pemrosesan data, eksplorasi, pembuatan fitur, pelatihan model regresi, evaluasi performa, hingga menghasilkan dataset prediksi final serta model yang siap digunakan kembali.
-
----
 
 ## 🗂️ Struktur Repository
 
@@ -34,11 +38,8 @@ Proses dilakukan mulai dari pra-pemrosesan data, eksplorasi, pembuatan fitur, pe
   - **README.md**
     - Dokumentasi proyek
 
-
 ## 📌 STRUKTUR NOTEBOOK
-
----
-**Pelatihan Model dan Prediksi.ipynb**
+**🚀 Pelatihan Model dan Prediksi.ipynb**
 
 **→ Membaca Dataset**  
 Memuat dataset mentah ke dalam notebook untuk diproses.
@@ -72,7 +73,7 @@ Menyimpan dataset final ke penyimpanan lokal agar dapat digunakan pada tahap ber
 
 ---
 
-**Pra-pemrosesan Data.ipynb**
+**🧹Pra-pemrosesan Data.ipynb**
 
 **→ Membaca Dataset**  
 Memuat dataset hasil preprocessing yang telah siap digunakan.
@@ -98,8 +99,7 @@ Melakukan encoding pada dataset uji agar konsisten dengan dataset pelatihan.
 **→ Visualisasi**  
 Menampilkan hasil prediksi dalam bentuk grafik sehingga performa model dan pola hasil prediksi dapat dianalisis dengan lebih mudah.
 
----
-## Visualisasi
+## Hasil dan insight yang didapat
 
 ### 🔹 Hasil Evaluasi Model
 ![Forecast 1](Insight%20with%20kibana/Hasil%20Evaluasi%20Model.png)
@@ -128,8 +128,6 @@ Menampilkan hasil prediksi dalam bentuk grafik sehingga performa model dan pola 
 ### 🔹 Strategi Top 5 Toko Unggulan 
 ![Strategi Top 5 Toko Unggulan](Insight%20with%20kibana/Strategi%20Top%205%20Toko%20Unggulan.png)
 
----
-
 ## Integrasi Elasticsearch dan Kibana
 
 ### 🔹 Data View
@@ -138,7 +136,6 @@ Menampilkan hasil prediksi dalam bentuk grafik sehingga performa model dan pola 
 ### 🔹 Dashboard
 ![Dashboard Kibana](Insight%20with%20kibana/Dashboard%20Kibana.png)
 
----
 ## 📥 Cara Clone Repository Lengkap (Termasuk Dataset LFS)
 
 Repository ini menggunakan **Git LFS**, jadi pastikan langkah berikut diikuti:
